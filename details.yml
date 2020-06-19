@@ -1,54 +1,95 @@
 ---
+# Metadata
+subject: RamZallan_Resume
+
 # Personal details
-name: Friedrich Nietzsche
-address:
-- Humboldtstraße 36
-- 99425 Weimar
-- Prussia
-phone: "+49 03643 545400"
-email: friedrich@thevoid.de
+name: Ram Zallan
+phone: 310-904-9123
+email: ram@ramzallan.me
+
 # Insert URLs without http://
-urls:
-- wki.pe/friedrich_nietzsche
-- twitter.com/tinynietzsche
+website: ramzallan.me
+github: github.com/ramzallan
+resumeurl: resume.ramzallan.me
 
 # Sections
-
-intro: "I know my fate. One day my name will be associated with the memory of something tremendous --- a crisis without equal on earth, the most profound collision of conscience, a decision that was conjured up against everything that had been believed, demanded, hallowed so far. I am no man, I am dynamite."
-
-skills:
-- Aesthetics, Ethics, Metaphysics, Nihilism
-- Psychology, Ontology, Poetry, Value theory
-- Voluntarism, Tragedy, Fact–value distinction
-- Anti-foundationalism, Philosophy of history
+intro: Full-stack engineer seeking a full-time role starting January 2021
 
 experience:
-- years: 1879--1889
-  employer: Freiberufler
-  job: Freier Philisoph
-  city: Sils-Maria
-- years: 1869–-1879
-  employer: Universität Basel
-  job: Professor für klassische Philologie
-  city: Basel
-- years: 1867--1868
-  employer: Preußischen Artillerie
-  job: Kanonier
-  city: Naumburg
+- years: May-Aug \newline 2020
+  employer: Microsoft
+  job: Full-stack Engineer Intern
+  info:
+    - Future intern for the Business Applications Group
+  city: Seattle
+- years: Jun-Aug \newline 2019
+  employer: Constant Contact
+  job: Front-end Engineer Intern
+  city: Boston
+  info:
+  - Front-end software engineer on the Web Editor team, working on the 3rd Generation and Cross-platform Editors for CTCT
+  - Enhanced company-wide UI libraries, added missing editor features, and fixed various defects to bring the new editor up to spec for a beta release
+  - Worked with \blue{JavaScript ES6}, \blue{React}, Reactstrap, Enzyme, Backbone
+- years: Jan-Jul \newline 2018
+  employer: Intuit
+  job: Full-stack Engineer Co-op
+  city: Mountain View
+  info:
+  - Full-stack software engineer for the Quickbooks Invoicing Add-on for Gmail and Quickbooks Online Invoice Management teams
+  - Enabled the add-on’s globalization to help businesses around the world
+  - Worked 1-on-1 with Project Management to add email tracking feature to get customers paid faster
+  - Primarily used \blue{JavaScript}, \blue{TypeScript}, \blue{React}, Java, \blue{SQL}, Jest, and Yarn
+- years: May-Aug \newline 2017
+  employer: Intuit
+  job: Back-end Engineer Intern
+  city: San Diego
+  info:
+  - Back-end software engineer on the TurboTax Online Product team
+  - Built API with projected use by \blue{all 10M+ users} of TTO Free Edition
+  - Worked primarily in \blue{Java} using Spring Boot and Maven
+
+projects:
+- year: 2019
+  name: Tonic
+  github: github.com/ramzallan/tonic
+  info:
+  - Single page web front-end for CSH’s networked vending machines
+  - Allows members to view stock and drop drinks, while Admins can edit data in the underlying DB
+  - Uses \blue{React}, \blue{Redux}, and \blue{React Router}, running on Node.js using JavaScript ES6
+- year: 2018
+  name: Resume Review
+  github: github.com/ramzallan/resumes-review
+  info:
+  - Site for users to upload resumes and receive or give feedback on them
+  - Written using \blue{Express}, a \blue{Node.js} framework, and \blue{JavaScript ES6}
+  - Stores files in \blue{S3}, and metadata/comments in a PostgreSQL database
+- year: 2017
+  name: Gallery
+  github: github.com/computersciencehouse/gallery
+  url: github.com/computersciencehouse/gallery
+  info:
+  - Media gallery for RIT's Computer Science House
+  - Uses \blue{Flask}, \blue{SQLAlchemy}, ImageMagick, HTML5, CSS3, and JavaScript
+  - Made fully extensible for any file-type
+
+skills:
+- \blue{Python}, \blue{Java}, C
+- \blue{JavaScript}, TypeScript, HTML/CSS
+- \blue{React}, \blue{Flask}, \blue{Node.js}, Three.js
+- \blue{Git}, \blue{SQL}, GraphQL, Spring, Linux
 
 education:
-- year: 1867
-  subject: Philology
-  institute: Leipzig Universität
-  city: Leipzig
-- year: 1864
-  subject: Abitur
-  institute: Schulpforta
-  city: Naumburg
+- institute: Rochester Institute of Technology
+  info:
+  - B.S. in Computer Science, \blue{graduating December 2020}
+  - Member & Webmaster, Computer Science House
+  - Web Developer, RIT Dept. of Access Services
+  - Co-founder, Tigers for Bernie Sanders
+
 
 # Settings
-mainfont: Hoefler Text
-fontsize: 10pt
+fontsize: 11pt
 lang: English
-geometry: a4paper, left=35mm, right=35mm, top=51mm, bottom=17mm
+geometry: letterpaper, left=1in, right=0.75in, top=0.4in, bottom=0.3in
+fontfamily: Input Sans
 ---
