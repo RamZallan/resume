@@ -61,7 +61,7 @@ projects:
   - Uses \blue{React}, \blue{Redux}, and \blue{React Router}, running on Node.js using JavaScript ES6
 - year: 2018
   name: Resume Review
-  github: github.com/ramzallan/resumes-review
+  github: github.com/ramzallan/resume-review
   info:
   - Site for users to upload resumes and receive or give feedback on them
   - Written using \blue{Express}, a \blue{Node.js} framework, and \blue{JavaScript ES6}
