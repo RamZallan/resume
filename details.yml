@@ -13,48 +13,51 @@ github: github.com/ramzallan
 resumeurl: resume.ramzallan.me
 
 # Sections
-intro: Full-stack engineer seeking a full-time role starting January 2021
+intro: |
+    | Full-stack engineer seeking
+    | a full-time role starting January 2021
 
 experience:
-- years: May-Aug \newline 2020
+- years: May—Aug \newline 2020
   employer: Microsoft
   job: Full-stack Engineer Intern
   info:
-    - Future intern for the Business Applications Group
+    - Expanded the Teams integration for PowerApps, a low-code/no-code app-maker
+    - Added features to the PowerApps Authoring SDK, available publicly to developers
+    - Worked with \blue{TypeScript}
   city: Seattle
-- years: Jun-Aug \newline 2019
+- years: Jun—Aug \newline 2019
   employer: Constant Contact
   job: Front-end Engineer Intern
   city: Boston
   info:
-  - Front-end software engineer on the Web Editor team, working on the 3rd Generation and Cross-platform Editors for CTCT
-  - Enhanced company-wide UI libraries, added missing editor features, and fixed various defects to bring the new editor up to spec for a beta release
-  - Worked with \blue{JavaScript ES6}, \blue{React}, Reactstrap, Enzyme, Backbone
-- years: Jan-Jul \newline 2018
+  - Enhanced company-wide UI libraries
+  - Added missing features and fixed defects to bring the new WYSIWYG email editor up to spec for a beta release
+  - Worked with \blue{JavaScript ES6}, \blue{React}, Reactstrap, Enzyme, and Backbone
+- years: Jan—Jul \newline 2018
   employer: Intuit
   job: Full-stack Engineer Co-op
   city: Mountain View
   info:
-  - Full-stack software engineer for the Quickbooks Invoicing Add-on for Gmail and Quickbooks Online Invoice Management teams
-  - Enabled the add-on’s globalization to help businesses around the world
-  - Worked 1-on-1 with Project Management to add email tracking feature to get customers paid faster
-  - Primarily used \blue{JavaScript}, \blue{TypeScript}, \blue{React}, Java, \blue{SQL}, Jest, and Yarn
-- years: May-Aug \newline 2017
+  - Built out the QuickBooks Gmail add-on’s internationalization to help businesses around the world
+  - Added email tracking to QuickBooks Invoices to get customers paid faster
+  - Worked with \blue{JavaScript}, \blue{TypeScript}, \blue{React}, Java, \blue{SQL}, Jest, and Yarn
+- years: May—Aug \newline 2017
   employer: Intuit
   job: Back-end Engineer Intern
   city: San Diego
   info:
   - Back-end software engineer on the TurboTax Online Product team
   - Built API with projected use by \blue{all 10M+ users} of TTO Free Edition
-  - Worked primarily in \blue{Java} using Spring Boot and Maven
+  - Worked with \blue{Java} using Spring Boot and Maven
 
 projects:
 - year: 2019
   name: Tonic
   github: github.com/ramzallan/tonic
   info:
-  - Single page web front-end for CSH’s networked vending machines
-  - Allows members to view stock and drop drinks, while Admins can edit data in the underlying DB
+  - Single page web front-end for networked vending machines
+  - Allows users to view stock and drop drinks, while admins can edit data in the underlying DB
   - Uses \blue{React}, \blue{Redux}, and \blue{React Router}, running on Node.js using JavaScript ES6
 - year: 2018
   name: Resume Review
@@ -69,12 +72,12 @@ projects:
   url: github.com/computersciencehouse/gallery
   info:
   - Media gallery for RIT's Computer Science House
-  - Uses \blue{Flask}, \blue{SQLAlchemy}, ImageMagick, HTML5, CSS3, and JavaScript
   - Made fully extensible for any file-type
+  - Uses \blue{Flask}, \blue{SQLAlchemy}, ImageMagick, HTML, CSS, and JavaScript
 
 skills:
-- \blue{Python}, \blue{Java}, C
-- \blue{JavaScript}, TypeScript, HTML/CSS
+- \blue{Python}, \blue{Java}, C#, C
+- \blue{JavaScript}, TypeScript, HTML. CSS
 - \blue{React}, \blue{Flask}, \blue{Node.js}, Three.js
 - \blue{Git}, \blue{SQL}, GraphQL, Spring, Linux
 
@@ -84,12 +87,11 @@ education:
   - B.S. in Computer Science, \blue{graduating December 2020}
   - Member & Webmaster, Computer Science House
   - Web Developer, RIT Dept. of Access Services
-  - Co-founder, Tigers for Bernie Sanders
 
 
 # Settings
 fontsize: 11pt
 lang: English
-geometry: letterpaper, left=1in, right=0.75in, top=0.4in, bottom=0.3in
-fontfamily: Input Sans
+geometry: letterpaper, left=1.1in, right=0.75in, top=0.6in, bottom=0.4in
+fontfamily: Proxima Nova
 ---
