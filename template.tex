@@ -112,10 +112,11 @@ $endif$
 % HEADER
 % -------------------------------
 \begin{multicols}{2}
-    \hspace*{-0.08cm}\blue{\fontsize{40}{50}\selectfont $name$}
+    \hspace*{-0.08cm}\blue{\fontsize{42}{50}\selectfont $name$}
     \columnbreak
     \begin{table}[H]
         \begin{tabular}{ll}
+            \vspace*{0.06cm}
             \blue{$phone$} & \href{mailto:$email$}{$email$}  \\
             \href{https://$website$}{$website$} & \href{https://$github$}{$github$}
         \end{tabular}
@@ -125,11 +126,11 @@ $endif$
 % INTRO
 % -------------------------------
 $if(intro)$
-\vspace*{-0.6cm}
+\vspace*{-0.7cm}
 \begin{spacing}{0.8}
 $intro$
 \end{spacing}
-\vspace{0.2cm}
+\vspace{0.5cm}
 $endif$
 
 % EXPERIENCE

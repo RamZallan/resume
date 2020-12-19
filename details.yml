@@ -14,8 +14,7 @@ resumeurl: resume.ramzallan.me
 
 # Sections
 intro: |
-    | Full-stack engineer seeking
-    | a full-time role starting January 2021
+    | Full-stack engineer seeking a full-time role
 
 experience:
 - years: May—Aug \newline 2020
@@ -77,14 +76,14 @@ projects:
 
 skills:
 - \blue{Python}, \blue{Java}, C#, C
-- \blue{JavaScript}, TypeScript, HTML. CSS
+- \blue{JavaScript}, TypeScript, HTML, CSS
 - \blue{React}, \blue{Flask}, \blue{Node.js}, Three.js
 - \blue{Git}, \blue{SQL}, GraphQL, Spring, Linux
 
 education:
 - institute: Rochester Institute of Technology
   info:
-  - B.S. in Computer Science, \blue{graduating December 2020}
+  - B.S. in Computer Science, \blue{graduated December 2020}
   - Member & Webmaster, Computer Science House
   - Web Developer, RIT Dept. of Access Services
 
